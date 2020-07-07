@@ -1,0 +1,70 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+button:focus {
+  outline: unset !important;
+  outline: unset !important;
+}
+
+.img1 {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  vertical-align: middle;
+  max-width: 8%;
+  margin-left: 7%
+ }
+
+ .text{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7%;
+  width: 80%;
+  font-size: 1.6rem
+}
+
+.max-menu .regions{
+  margin: 0 0 0 56px;
+  overflow: hidden;
+}
+
+.max-menu .regions .item{
+  margin: 0;
+  min-height: 2.4rem;
+  background: transparent;
+}
+.max-menu .item .label{
+  margin: 0;
+  color: #fff; 
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+.max-menu .regions .radio .radio-icon{
+  display: none;
+}
+.max-menu .item-radio-checked{
+  min-height: 1rem;
+  line-height: 1;
+}
+.max-menu .item-radio-checked .label{
+  color: #fff;
+  font-weight: bold;
+}
+.lo-fi-toggle .item{
+  background: transparent;
+  padding: 0 40px;
+}

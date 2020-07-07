@@ -1,0 +1,12 @@
+page-about {
+	.content{
+		height: calc(100% - 70px);
+	}
+	.schedule-img{
+		width: 64px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	}
+
+}

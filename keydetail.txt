@@ -1,0 +1,4 @@
+password:kiran123
+alias:yourapp
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release-unsigned.apk yourapp
+zipalign -v 4 app-release-unsigned.apk maxfm.apk

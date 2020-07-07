@@ -1,0 +1,17 @@
+page-network-error {
+	.content{
+		background-color: #000;
+	}
+	.card{
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.card-header{
+		font-size: 2em;
+	}
+	.refresh{
+		font-size: 10em;
+	}
+}

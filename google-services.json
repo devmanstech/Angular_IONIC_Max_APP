@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "420453837526",
+    "firebase_url": "https://max-fm-55453.firebaseio.com",
+    "project_id": "max-fm-55453",
+    "storage_bucket": "max-fm-55453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420453837526:android:841a3927a96ea597",
+        "android_client_info": {
+          "package_name": "com.app.thrilliantnigeriamaxfmng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420453837526-qcvi7pp1gmc74h74tc27pmb97otlrujm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCaT7qWV_brTXI9IgUNEhptWo5EBb0nEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

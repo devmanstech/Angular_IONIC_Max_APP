@@ -1,0 +1,81 @@
+<!-- 
+<ion-header>
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title style="color: white" ></ion-title>
+  </ion-navbar>
+
+</ion-header>
+ -->
+<ion-content padding>
+  <div>
+    <ion-spinner class="center" *ngIf="!post && !item" name="bubbles" color="primary"></ion-spinner>
+  </div>
+
+  <ion-fab top left>
+    <button ion-fab (click)="dismiss()"><ion-icon name="arrow-back"></ion-icon></button>
+  </ion-fab>
+  
+  
+  <div *ngIf="post!=null">
+    <div *ngIf="post.attachments.length > 0" class="max-news-image" >
+      <img-loader src="{{post.attachments[0].url}}" useImg></img-loader>
+    </div>
+    <h2 class="max-article-title" [innerHtml]="post.title"></h2>
+    <span class="max-article-detail" [innerHtml]="content"></span>
+  </div>
+  <div *ngIf="item!=null">
+    <div class="max-news-image" [ngStyle]="{'background-image':'url('+item.image+')'}" style="border-radius: 15px; width: 100%; height: 270px"></div>
+    <h2 class="max-article-title" [innerHtml]="item.title"></h2>
+    <span class="max-article-detail" [innerHtml]="item.content"></span>
+  </div>
+  
+<!-- 
+  <div *ngIf="relatedPosts?.posts" class="show-recent">
+    <ion-item no-border>
+      <ion-label class="related-header">Related Stories</ion-label>
+    </ion-item>
+
+    <ion-row class="row unlimited-items">
+      <ion-col *ngFor="let item of relatedPosts.posts" class="col">
+        <ion-card tappable (click)="getPost(item, post)">
+          <ion-card-content>
+              <ion-thumbnail item-left *ngIf="item.thumbnail">
+                <img-loader src="{{item.thumbnail}}" useImg></img-loader>
+              </ion-thumbnail>
+
+              <ion-thumbnail item-left *ngIf="!item.thumbnail && item.thumbnail_images?.medium">
+                <img-loader src="{{item.thumbnail_images.medium.url}}" useImg></img-loader>
+              </ion-thumbnail>
+
+              <ion-thumbnail item-left *ngIf="!item.thumbnail && !item.attachments.length">
+                <img src="assets/img/shop-icon.jpg">
+              </ion-thumbnail>
+          </ion-card-content>
+          <div class="details">
+            <h2 [innerHTML]="item.title" style="margin: 5px 0;"></h2>
+            <h3  style="margin: 10px 0;"><ion-icon name="md-time"></ion-icon>{{item.date | keys}}</h3>
+            <div [innerHTML]="item.content" class="info"></div>
+          </div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </div>
+ -->
+
+  <ion-fab bottom right #fab>
+    <button ion-fab class="share"><ion-icon name="md-share"></ion-icon></button>
+    <ion-fab-list side="top">
+      <button ion-fab style="color: #FF5722" (click)="shareWithGmail(post, 'Instagram', fab)"><ion-icon name="ios-mail"></ion-icon></button>
+      <button ion-fab style="color: #34af23" name="logo-whatsapp" (click)="shareWithWhatsapp(post, 'Whatsapp', fab)"><ion-icon name="logo-whatsapp"></ion-icon></button>
+      <button ion-fab style="color: #00aced" (click)="shareWithTw(post, 'Twitter', fab)"><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab style="color: #3b5998" (click)="shareWithFb(post, 'Facebook', fab)"><ion-icon name="logo-facebook"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+</ion-content>

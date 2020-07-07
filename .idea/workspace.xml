@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94fd649f-3326-4fd0-9eb9-92904e47cbf7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1eJsK6eM1BLdZOCZjKEjO66f8R3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="excluded.www.directory" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\Ionic\Task\maxapp\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ionic:serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ionic:serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.ionic:serve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94fd649f-3326-4fd0-9eb9-92904e47cbf7" name="Default Changelist" comment="" />
+      <created>1594050962802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594050962802</updated>
+      <workItem from="1594050969705" duration="86000" />
+      <workItem from="1594064361462" duration="2346000" />
+      <workItem from="1594097666605" duration="5770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/pages/contact/contact.js.map" />
+        <option value="$PROJECT_DIR$/src/pages/contact/contact.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="527" y="297" key="#Notifications" timestamp="1594051060799">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state x="527" y="297" key="#Notifications/0.0.1280.920@0.0.1280.920" timestamp="1594051060799" />
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom" timestamp="1594106618452">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom/0.0.1280.920@0.0.1280.920" timestamp="1594106618452" />
+    <state width="1237" height="236" key="GridCell.Tab.0.center" timestamp="1594106618452">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state width="1237" height="236" key="GridCell.Tab.0.center/0.0.1280.920@0.0.1280.920" timestamp="1594106618452" />
+    <state width="1237" height="236" key="GridCell.Tab.0.left" timestamp="1594106618452">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state width="1237" height="236" key="GridCell.Tab.0.left/0.0.1280.920@0.0.1280.920" timestamp="1594106618452" />
+    <state width="1237" height="236" key="GridCell.Tab.0.right" timestamp="1594106618452">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state width="1237" height="236" key="GridCell.Tab.0.right/0.0.1280.920@0.0.1280.920" timestamp="1594106618452" />
+    <state x="351" y="177" width="577" height="590" key="find.popup" timestamp="1594103067840">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state x="351" y="177" width="577" height="590" key="find.popup/0.0.1280.920@0.0.1280.920" timestamp="1594103067840" />
+    <state x="303" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1594098914733">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state x="303" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1280.920@0.0.1280.920" timestamp="1594098914733" />
+  </component>
+</project>

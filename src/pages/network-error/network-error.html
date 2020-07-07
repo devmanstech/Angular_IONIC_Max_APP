@@ -1,0 +1,20 @@
+<!-- 
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>network-error</ion-title>
+  </ion-navbar>
+
+</ion-header>
+ -->
+<ion-content padding>
+	<ion-card>
+		<ion-card-header text-center color="danger">Internet Connection Error!</ion-card-header>
+		<ion-card-content text-center>
+			<div class="refresh" (click)="retry()">
+				<ion-icon name="md-refresh-circle" color="danger"></ion-icon>
+			</div>
+Sorry, we are optimizing your network to keep you connected. <br>Tap to retry.
+		</ion-card-content>
+</ion-card>
+</ion-content>

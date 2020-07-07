@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title style = "padding-right:48px;">Comment on the Show</ion-title>
+      <ion-buttons end>
+        <ion-spinner class="center" *ngIf="itsLoading" name="bubbles" color="light"></ion-spinner>
+      </ion-buttons>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content class="opinionlagos-page">
+    <iframe (load)="setFrameLoaded($event)" [hidden]="itsLoading" height="100%" width="100%" [src]="url"></iframe>
+  </ion-content>
+  
